@@ -7,6 +7,7 @@
 }
 main{
     padding: 0 16px;
+    width: 100%;
 }
 nav{
     display: flex;
@@ -86,8 +87,10 @@ nav a{
 .host_cities{
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    margin: 50px 0px;
+    gap: 35px;
+    justify-content: center;
+    text-align: justify;
+    margin: 50px auto;
 }
 .host_cities h1{
     text-align: center;
@@ -96,15 +99,16 @@ nav a{
 .host_grid{
     display: grid;
     grid-template-columns: 1fr 2fr;
+    
     gap: 30px;
 }
 .host_text{
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
-    text-align: left;
-    justify-content: start;
     gap: 30px;
 }
+
 .host_text h3{
     font-size: 24px;
 }
@@ -113,13 +117,96 @@ nav a{
     gap: 3px;
     padding-left: 20px;
 }
-/* .host_section button{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    
-} */
 .host_btn{
     display: grid;
     justify-content: center;
+}
+.table_section table , tr ,thead,td{
+    text-transform: uppercase;
+    font-size: 16;
+    align-items: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px 50px;
+    text-align: center;
+}
+.table_section thead{
+    background-color: #A73131;
+    font-weight: bold;
+    color: #ffffff;
+}
+.table_section{
+    width: 100%;
+    gap: 25px;
+    display: grid;
+    justify-content: center;
+
+}
+.red{
+    color: #ba1a1a;
+}
+.gray{
+    color:#505f76;
+}
+.golden{
+    color: #bda004;
+}
+footer{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.footer{
+    width: 90%;
+    padding: 20px 0px;
+    display: grid;
+    gap: 30px;
+}
+.footer_top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.social_icon{
+    font-size: 25px; 
+    padding: 8px 10px;
+    border-radius: 16px;
+}
+
+.fb , .linkedin{
+    background-color: blue;
+    color: white;
+}
+.yt{
+    background-color: red;
+    color: rgb(255, 255, 255);
+}
+.social_section{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_bottom_left , .footer_bottom_right{
+    display: flex;
+    gap: 10px;
+}
+hr{
+    border: 0.1px solid gray;
+}
+.fa-circle{
+    font-size: 5px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
