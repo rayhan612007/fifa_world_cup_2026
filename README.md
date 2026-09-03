@@ -41,3 +41,10 @@ Follow these steps to run the project on your local machine:
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/rayhan612007/fifa_world_cup_2026.git](https://github.com/rayhan612007/fifa_world_cup_2026.git)
+
+2. **Navigate to the project directory:**
+-  cd fifa_world_cup_2026
+   
+3.**Open the project:**
+-  Double-click index.html to open directly in your web browser.
+-  Or open in VS Code and run with the Live Server extension.
