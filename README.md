@@ -9,8 +9,9 @@ An interactive and responsive web landing page for the upcoming **FIFA World Cup
 * **GitHub Repository:** [fifa_world_cup_2026 Repo](https://github.com/rayhan612007/fifa_world_cup_2026)
 
 ---
+
 ## 📸 Preview
-![Fifa World Cup 2026 Screenshot](assets/Screenshot.png)
+![Fifa World Cup 2026 Screenshot](assets/screenshot.png)
 
 ---
 
@@ -18,7 +19,7 @@ An interactive and responsive web landing page for the upcoming **FIFA World Cup
 * **Hero Banner & Ticket Booking:** Prominent call-to-action for ticket pre-orders with real-time stats (1M+ tickets sold).
 * **Host Cities Overview:** Detailed cards for venues like New York/New Jersey, Mexico City, Toronto, and Vancouver.
 * **Key Match Schedule:** Highlighting key fixtures from opening games to the final at MetLife Stadium.
-* **Desktop Layout:** Clean design built for desktop viewports.
+* **Responsive Layout:** Clean design built for desktop viewports.
 
 ---
 
@@ -34,6 +35,8 @@ An interactive and responsive web landing page for the upcoming **FIFA World Cup
 ---
 
 ## 💻 How to Run Locally
+
+Follow these steps to run the project on your local machine:
 
 1. **Clone the repository:**
    ```bash
