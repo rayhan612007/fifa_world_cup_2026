@@ -11,7 +11,7 @@ An interactive and responsive web landing page for the upcoming **FIFA World Cup
 ---
 
 ## 📸 Preview
-![Fifa World Cup 2026 Screenshot](assets/screenshot.png)
+![Fifa World Cup 2026 Screenshot](assets/Screenshot.png)
 
 ---
 
